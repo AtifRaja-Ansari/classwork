@@ -1,4 +1,6 @@
-//WAP to input an array having 5 strings and display themort java.util.Scanner;
+// WAP to input an array having 5 strings and display them
+
+import java.util.Scanner;
 public class Array1   
 
 	{  
