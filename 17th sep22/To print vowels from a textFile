@@ -1,0 +1,19 @@
+//1.)WAP to print vowels from a text file
+package class_work;
+import java.io.FileInputStream;
+import java.io.IOException;
+
+public class Vowels_from_a_textfile {
+	public static void main(String[] args) throws IOException{
+		FileInputStream fin=new FileInputStream("Test1.txt");
+		int i=0;
+		while((i=fin.read())!=-1) { 
+			if(i=='a'||i=='e'||i=='i'||i=='o'||i=='u')
+				System.out.print((char)i+" ");
+				
+		}
+		fin.close();
+	}
+
+
+}
